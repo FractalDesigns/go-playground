@@ -1,4 +1,4 @@
-module example.com/m
+module go-playground
 
 go 1.18
 
