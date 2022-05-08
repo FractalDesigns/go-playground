@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"github.com/afritfr/go-playground/cmd"
+)
+
+func addition(a int, b int) int {
+	return a + b
+}
 
 func main() {
-	fmt.Println("Hello")
+	cmd.Execute()
 }
